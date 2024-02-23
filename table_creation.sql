@@ -1,4 +1,4 @@
-drop function load_csv_file;
+drop function if exists load_csv_file;
 CREATE FUNCTION load_csv_file(
     target_table text,
     csv_path text,
